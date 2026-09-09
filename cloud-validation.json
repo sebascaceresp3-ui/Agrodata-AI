@@ -1,0 +1,32 @@
+{
+  "environment": "Windows local; Python 3.12; Streamlit 1.55.0",
+  "automatic_tests_passed": 27,
+  "profile": [
+    {
+      "step": "cold_start",
+      "seconds": 2.866,
+      "rss_mb": 204.8,
+      "peak_rss_mb": 204.9
+    },
+    {
+      "step": "ecuador_cocoa",
+      "seconds": 0.587,
+      "rss_mb": 205.6,
+      "peak_rss_mb": 210.4
+    },
+    {
+      "step": "trade_and_prices",
+      "seconds": 0.47,
+      "rss_mb": 208.4,
+      "peak_rss_mb": 210.4
+    }
+  ],
+  "health": {
+    "samples": 40,
+    "failures": 0,
+    "maxMs": 414.6783,
+    "averageMs": 25.1561175
+  },
+  "cloud_deployment_verified": false,
+  "prepared_index_bytes": 156819
+}
